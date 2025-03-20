@@ -1,9 +1,10 @@
 <?php
-// Configurazione del database
-$db_host = 'localhost';
+// Database configuration
+$db_host = '34.154.7.57';
 $db_name = 'image_catalog';
-$db_user = 'root';
-$db_pass = 'veryverystrongpassword';
+$db_user = 'asd-asd-asd';
+$db_pass = 'asd-asd-asd';
+
 
 try {
     $pdo = new PDO("mysql:host=$db_host;dbname=$db_name", $db_user, $db_pass);
